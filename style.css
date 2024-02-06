@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: whitesmoke;
+    font-family:  "Roboto", sans-serif;
+}
+
+section{
+    width: 38%;
+    margin: 1rem auto;
+    background-color: white;
+    box-shadow: 5px 5px 5px gainsboro;
+    padding: 1.5rem 1.5rem 2rem;
+    border-radius: 4px;
+    line-height: 2.3rem;
+}
+
+h1{
+    font-weight: 700;
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+.new{
+    line-height: 1.5rem;
+}
+
+.title{
+    color: black;
+    font-size: small;
+    margin-bottom: -.5rem;
+    margin-top: .5rem;
+    font-weight: 800;
+}
+
+.input-price, .input-person, .input-percent{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.calculate{
+    text-align: center;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 4px;
+    color: white;
+    background-color:  limegreen;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+
+.calculate:hover{
+    color:  limegreen;
+    background: white;
+    box-shadow: 0 0 20px limegreen;
+    border-radius: 10px;
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+    margin-top: .5rem;
+    font-weight: 400;
+}
+
+.start-again{
+    text-align: center;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 4px;
+    border: none;
+    color:  limegreen;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.start-again:hover{
+    color: white;
+    background:  limegreen;
+    box-shadow: 0 0 20px  limegreen;
+    border-radius: 10px;
+}
+
+.error{
+    color: rgb(248, 90, 90);
+    font-size: .85rem;
+}
+
+.section2{
+    background-color: white;
+    text-align: center;
+    box-shadow: 5px 5px 5px gainsboro;
+    display: none;
+}
+
+
+.section2 h1{
+    text-align: center;
+}
+
+
+.section2 h3{
+    color: black;
+}
+
+.section2Pii, .section2Piii, .section2Piv{
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-top: -.5rem;
+}
+
+.section2Pi{
+    font-weight: 600;
+    font-size: 2rem;
+    color:  limegreen;
+}
+
+@media screen and (max-width: 800px) {
+    
+section{
+    width: 48%;
+}
+}
+
+@media screen and (max-width: 650px) {
+    
+    section{
+        width: 58%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    section{
+        width: 68%;
+    }
+
+    .section2 h3{
+        color: black;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    section{
+        width: 78%;
+    }
+    .section2 h3{
+        font-size: .75rem;
+    }
+    .section2 h1{
+        font-size: .75rem;
+    }
+}
